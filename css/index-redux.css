@@ -95,6 +95,59 @@ main {
     h1 {
         font-size: 30px;
     }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .main-header {
+        padding: 10px 0px;
+        margin: 0 auto;
+    }
+
+    .top-content-container {
+        float: right;
+        width: 175px;
+        margin: 0 0;
+        position: relative;
+        padding-right: 10px;
+    
+    }
+
+    .about-us-header {
+        position: relative;
+        margin: 0 auto;
+        padding-bottom: 10px;
+    }
+
+    .about-us-paragraph {
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .top-image, .bottom-image, .center-image {
+        width: 100%;
+        max-width: 130px;
+        height: 155px;
+        object-fit: cover;
+        border-radius: 10px; 
+    }
+
+    .top-image {
+        float: left;
+    }
+
+    .book-apt {
+        margin: 0 auto;
+    }
+
+
+
+
 }
 
 

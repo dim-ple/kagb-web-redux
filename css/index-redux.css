@@ -42,7 +42,7 @@ nav {
     border: 2px solid blue;
     width: 98%;
     margin: 0 auto;
-    height: 190px;
+    height: 190px
 }
 
 .logo {
@@ -54,15 +54,12 @@ nav {
 
 .primary-nav {
     float: right;
-    margin: 0 0;
-    padding-right: 20px; 
+    margin: 0 0; 
 }
 
 nav ul {
     float: right;
     position: relative;
-    padding-left: 20px;
-    padding-top: 15px;
 }
 
 nav li {
@@ -91,11 +88,16 @@ main {
     height: 400px;
 }
 
+a.btn:link {
+    background-color: #D98032;
+    color: white;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 480px) {
     
-    
     h1 {
-        font-size: 30px;
+        font-size: 24px;
     }
 
     h2 {
@@ -103,7 +105,20 @@ main {
     }
 
     p {
-        font-size: 14px;
+        font-size: 16px;
+    }
+
+    nav {
+        height: 165px;
+    }
+
+    .primary-nav {
+        margin-top: 18px;
+        margin-right: 20px;
+    }
+    
+    nav li {
+        padding-bottom: 10px;
     }
 
     #about-us {

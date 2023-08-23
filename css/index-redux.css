@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-    color: #038C33;
+    color: #000000;
     text-align: center;
     font-family: "massilia", sans-serif;
     font-weight: 700;
@@ -15,7 +15,7 @@ h1 {
 }
 
 h2 {
-    color: #038C33;
+    color: #000000;
     text-align: center;
     font-family: "dunbar-low", sans-serif;
     font-weight: 600;
@@ -23,7 +23,7 @@ h2 {
 }
 
 p {
-    color: #038C33;
+    color: #000000;
     text-align: center;
     font-family: "dunbar-low", sans-serif;
     font-weight: 300;
@@ -105,7 +105,7 @@ main {
     }
 
     .main-header {
-        padding: 10px 0px;
+        padding: 15px 0px;
         margin: 0 auto;
     }
 
@@ -139,6 +139,7 @@ main {
 
     .top-image {
         float: left;
+        margin-top: 15px;
     }
 
     .book-apt {

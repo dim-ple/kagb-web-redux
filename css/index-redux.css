@@ -18,7 +18,7 @@ h2 {
     color: #000000;
     text-align: center;
     font-family: "dunbar-low", sans-serif;
-    font-weight: 600;
+    font-weight: 650;
     font-style: normal;
 }
 
@@ -97,15 +97,16 @@ a.btn:link {
 @media screen and (max-width: 480px) {
     
     h1 {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     p {
         font-size: 16px;
+        margin: 0;
     }
 
     nav {
@@ -126,7 +127,7 @@ a.btn:link {
     }
 
     .main-header {
-        padding: 15px 0px;
+        padding: 10px 0px;
         margin: 0 auto;
     }
 
@@ -136,18 +137,24 @@ a.btn:link {
         margin: 0 auto;
         position: relative;
         padding-right: 10px;
-    
+        background-color: #B9D989;
+        border-radius: 10px;
     }
 
     .about-us-header {
         position: relative;
         margin: 0 auto;
-        padding-bottom: 10px;
+        padding-bottom: 5px;
+        top: 5px;
+        left: 10px;
     }
 
     .about-us-paragraph {
         position: relative;
         margin: 0 auto;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-top: 5px;
     }
 
     .top-image, .bottom-image, .center-image {
@@ -163,9 +170,14 @@ a.btn:link {
         margin-top: 15px;
     }
 
-    .book-apt {
-        margin: 0 auto;
+    p.book-appt {
+        background-color: #D98032;
+        position: relative;
+        left: 10px;
+        bottom: 5px;
     }
 
-
+    a.btn {
+        padding: 2px 5px;
+    }
 }

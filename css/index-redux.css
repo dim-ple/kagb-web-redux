@@ -92,6 +92,8 @@ main {
 }
 
 @media screen and (max-width: 480px) {
+    
+    
     h1 {
         font-size: 30px;
     }
@@ -104,6 +106,10 @@ main {
         font-size: 14px;
     }
 
+    #about-us {
+        height: 375px;
+    }
+
     .main-header {
         padding: 15px 0px;
         margin: 0 auto;
@@ -112,7 +118,7 @@ main {
     .top-content-container {
         float: right;
         width: 175px;
-        margin: 0 0;
+        margin: 0 auto;
         position: relative;
         padding-right: 10px;
     
@@ -147,11 +153,4 @@ main {
     }
 
 
-
-
 }
-
-
-
-
-

@@ -78,7 +78,7 @@ nav li {
 }
 
 main {
-    border: 2px solid magenta;
+    /*border: 2px solid magenta;*/
     width: 96%;
     height: 1300px;
 }
@@ -92,6 +92,7 @@ a.btn:link {
     background-color: #D98032;
     color: white;
     text-decoration: none;
+    padding: 4px 3px;
 }
 
 @media screen and (max-width: 480px) {
@@ -124,6 +125,8 @@ a.btn:link {
 
     #about-us {
         height: 375px;
+        width: 100%;
+        margin: 0 auto;
     }
 
     .main-header {
@@ -170,14 +173,4 @@ a.btn:link {
         margin-top: 15px;
     }
 
-    p.book-appt {
-        background-color: #D98032;
-        position: relative;
-        left: 10px;
-        bottom: 5px;
-    }
-
-    a.btn {
-        padding: 2px 5px;
-    }
 }
